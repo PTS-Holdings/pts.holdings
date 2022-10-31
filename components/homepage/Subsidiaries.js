@@ -77,6 +77,19 @@ const Subsidiaries = () => {
 				}
 				img={mentorsLogo}
 			/>
+
+			<div className="mt-16">
+				<Title text="PTS Subsidiaries" />
+			</div>
+
+			<CompanyTransCard
+				title="Kemtech valley"
+				description={
+					"Our Mentors are world-class CEOs, business leaders, investors, academics and entrepreneurs that support Endeavor Entrepreneurs and Endeavor candidates by sharing their experience and knowledge, driven by a desire to give-back to the entrepreneurial ecosystem owing to the role Entrepreneurs play in catalyzing economic growth in Egypt. Mentors encourage entrepreneurs to not only grow, but also multiply their influence by giving back to the next generation of business leaders."
+				}
+				img={mentorsLogo}
+				href="https://kemtech.org"
+			/>
 		</section>
 	);
 };

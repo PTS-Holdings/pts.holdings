@@ -7,7 +7,7 @@ const CompanyTransCard = ({ title, img, description, href, buttonColor }) => {
 		<div className=" mt-12 w-fit bg-gradient-to-b from-pts-red to-pts-blue-base ">
 			<div className="flex w-fit flex-col gap-14 bg-white pr-4 md:flex-row">
 				<div className="md:w-[60%]">
-					<h2 className="mb-2 text-3xl font-semibold">{title}</h2>
+					<h2 className="mb-2 text-2xl font-semibold">{title}</h2>
 					<p className="mb-4">{description}</p>
 					{href && (
 						<a
