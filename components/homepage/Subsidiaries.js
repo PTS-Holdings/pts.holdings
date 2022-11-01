@@ -80,7 +80,7 @@ const Subsidiaries = () => {
 			/>
 
 			<div className="mt-16">
-				<Title text="PTS Subsidiaries" />
+				<Title text="Social Responsibilities" />
 			</div>
 
 			<CompanyTransCard
