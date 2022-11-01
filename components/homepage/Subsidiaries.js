@@ -2,13 +2,14 @@ import CompanyTransCard from "components/CompanyTransCard";
 import Title from "components/Title";
 import edamLogo from "public/assets/edam-logo.svg";
 import igniteLogo from "public/assets/ignite.svg";
+import kemtechlogo from "public/assets/kemtech-logo.svg";
 import kemtixLogo from "public/assets/kemtix.svg";
 import mentorsLogo from "public/assets/mentors.svg";
+import mentors4africaLogo from "public/assets/mentors4africa.svg";
 import oroPartnersLogo from "public/assets/oro-partners.svg";
 import oroVentureLogo from "public/assets/oro-vl.svg";
 import oroCapitalLogo from "public/assets/oroCapitalLogo.svg";
 import ptsProjectsLogo from "public/assets/pts-projects.svg";
-
 const Subsidiaries = () => {
 	return (
 		<section className="container">
@@ -85,10 +86,18 @@ const Subsidiaries = () => {
 			<CompanyTransCard
 				title="Kemtech valley"
 				description={
-					"Our Mentors are world-class CEOs, business leaders, investors, academics and entrepreneurs that support Endeavor Entrepreneurs and Endeavor candidates by sharing their experience and knowledge, driven by a desire to give-back to the entrepreneurial ecosystem owing to the role Entrepreneurs play in catalyzing economic growth in Egypt. Mentors encourage entrepreneurs to not only grow, but also multiply their influence by giving back to the next generation of business leaders."
+					"Kemtech Valley intiative is powerd by PTS Projectsin cooperation with NCT University and managed by ORO Ventures Lab. The Egyptian Applied Technological Valley Kemtech Valley initiative aims to build highly specialized technical cadres and develop the creative capabilities of Egyptian youth, as well as Support startups, small and medium-sized companies in the field of applied technology and build digital community awareness through various programs "
 				}
-				img={mentorsLogo}
+				img={kemtechlogo}
 				href="https://kemtech.org"
+			/>
+
+			<CompanyTransCard
+				title="Mentors 4 Africa"
+				description={
+					"MENTORS’ is group of companies established with one Mission, “Supporting economies through supporting 360 degrees the SMEs to be Educated, build and grow”.  MENTORS’ 4 AFRICA is an initiative built by MENTORS’ HQ and MEA in cooperation with Instadeel inc. to support the ecosystem for all African startups, SMEs, and entrepreneurs to learn, develop, build, and grow locally and internationally,  Our long-term Vision builds to cover different dimensions: Population (Both Gender, Women in Business, Junior Talents, African immigrant and People with Special Abilities) Sectors, (Education, Health care, Agriculture, Fintech ,Mining,  Environmental, and Sustainability) "
+				}
+				img={mentors4africaLogo}
 			/>
 		</section>
 	);

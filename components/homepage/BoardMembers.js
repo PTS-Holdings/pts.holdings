@@ -1,6 +1,7 @@
 import PersonalCard from "components/PersonCard";
 import Title from "components/Title";
 import abdulaziz from "public/assets/abd-elaziz-mandour.png";
+import maha from "public/assets/maha.png";
 
 const BoardMembers = () => {
 	return (
@@ -13,7 +14,7 @@ const BoardMembers = () => {
 					title={"Chairman of PTS Holdings"}
 				/>
 				<PersonalCard
-					img={abdulaziz}
+					img={maha}
 					name={"Eng. Maha Mandour"}
 					title={"Group Managing Director"}
 					linkedin="https://www.linkedin.com/in/maha-m-61a04177/"

@@ -22,7 +22,7 @@ const CompanyTransCard = ({ title, img, description, href, buttonColor }) => {
 						</a>
 					)}
 				</div>
-				<Image src={img} alt={`${title} img`} className=" h-30" />
+				<Image src={img} alt={`${title} img`} className=" h-32" />
 			</div>
 		</div>
 	);
