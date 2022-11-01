@@ -1,0 +1,10 @@
+{
+    "apps": [{
+        "name" : "pys.holdings",
+        "script" : "git pull && yarn && yarn build && yarn start",
+        "watch" : true,
+        "env":{
+            "PORT" : 3002
+        }
+    }]
+}
