@@ -1,6 +1,6 @@
 {
     "apps": [{
-        "name" : "pys.holdings",
+        "name" : "pts.holdings",
         "script" : "git pull && yarn && yarn build && yarn start",
         "watch" : true,
         "env":{
