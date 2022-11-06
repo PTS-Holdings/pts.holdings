@@ -32,9 +32,9 @@ const Subsidiaries = () => {
 			/>
 
 			<CompanyTransCard
-				title="ORO Venture Laps"
+				title="ORO Ventures Lap"
 				description={
-					"ORO Venture Laps offers managed services related to OroCapital global funds and wealth management portfolio, talent acquisitions, venture studio support functions, training, and human resources development Oroconsult delivered the required human resources to support activities related to capital markets, we have distinct teams with diversified expertise that participated in mega projects in 20 countries."
+					"ORO Ventures Lap offers managed services related to OroCapital global funds and wealth management portfolio, talent acquisitions, venture studio support functions, training, and human resources development, ORO Ventures Lap deliverers the required human resources to support activities related to capital markets, we have distinct teams with diversified expertise that participated in mega projects in 20 countries."
 				}
 				img={oroVentureLogo}
 			/>
@@ -86,7 +86,7 @@ const Subsidiaries = () => {
 			<CompanyTransCard
 				title="Kemtech valley"
 				description={
-					"Kemtech Valley intiative is powerd by PTS Projectsin cooperation with NCT University and managed by ORO Ventures Lab. The Egyptian Applied Technological Valley Kemtech Valley initiative aims to build highly specialized technical cadres and develop the creative capabilities of Egyptian youth, as well as Support startups, small and medium-sized companies in the field of applied technology and build digital community awareness through various programs "
+					"Kemtech Valley initiative is powered by PTS Projects in cooperation with NCT University and managed by ORO Ventures Lab. The Egyptian Applied Technological Valley Kemtech Valley initiative aims to build highly specialized technical cadres and develop the creative capabilities of Egyptian youth, as well as Support startups, small and medium-sized companies in the field of applied technology and build digital community awareness through various programs "
 				}
 				img={kemtechlogo}
 				href="https://kemtech.org"
