@@ -19,7 +19,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<main className="space-y-16">
+			<main className="space-y-16 overflow-hidden">
 				<HeroSection />
 				<ChairmanWord />
 				<VisionSection />

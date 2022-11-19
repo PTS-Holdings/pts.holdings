@@ -13,14 +13,11 @@ const PersonalCard = ({ img, name, title, linkedin }) => {
 			<p className="font-light">{title}</p>
 
 			{linkedin && (
-				<a
-					href={linkedin}
-					target="_blank"
-					className="cursor-pointer"
-					rel="noreferrer"
-				>
-					<ImLinkedin />
-				</a>
+				<div className="w-fit cursor-pointer">
+					<a href={linkedin} target="_blank" rel="noreferrer">
+						<ImLinkedin />
+					</a>
+				</div>
 			)}
 		</div>
 	);

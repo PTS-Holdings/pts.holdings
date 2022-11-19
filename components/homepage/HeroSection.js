@@ -1,34 +1,49 @@
 import Image from "next/image";
+import ceoImg from "public/assets/abd-elaziz-mandour.png";
+import signatureImg from "public/assets/signature.svg";
+import waveImg from "public/assets/wave.svg";
 import { HiOutlineChevronDoubleDown } from "react-icons/hi";
-import holdingLogo from "../../public/assets/holding-logo.svg";
-import holdingArt from "../../public/assets/logo-art.svg";
 const HeroSection = () => {
 	return (
-		<section className=" flex h-screen flex-col ">
-			<div className=" relative flex w-full grow flex-col items-center justify-center overflow-hidden md:flex-row-reverse md:items-start md:justify-start">
-				<div className="w-fit -translate-y-40 md:h-full md:translate-y-0 md:translate-x-[6vw] md:-rotate-90">
+		<section
+			id="hero"
+			className="container flex h-[75vh] flex-col items-center justify-center text-center "
+		>
+			<div className="  flex flex-col items-center justify-center">
+				<h2 className="text-5xl font-bold">
+					Ready to build the future
+				</h2>
+				<p className="mt-4 md:w-1/2">
+					We are flexible, understanding that business conditions
+					change, goals change, and technology changes, We
+					continuously seek ways to develop and improve ourselves,
+					both as a company and as individual employees.
+				</p>
+				<div className=" mt-8 flex w-fit flex-wrap items-center justify-center gap-4">
 					<Image
-						src={holdingArt}
-						alt="PTS Holdings logo"
-						layout="fixed"
-						className="w-full md:h-full md:w-full"
+						src={ceoImg}
+						alt="Eng. Abdulaziz mandour"
+						className="h-14 w-14 rounded-full"
 					/>
-				</div>
-
-				<div className="z-10 w-fit md:my-auto lg:mr-60">
+					<div>
+						<h3 className=" font-bold">Eng. Abdulaziz Mandour</h3>
+						<p className=" font-light">Chairman of PTS Holdings</p>
+					</div>
 					<Image
-						src={holdingLogo}
-						alt="PTS Holdings logo"
-						height={100}
-						width={300}
+						src={signatureImg}
+						alt="Eng. Abdulaziz mandour"
+						className="h-14 "
 					/>
-					<p className=" mt-2 w-full text-center tracking-[0.2rem] md:text-sm">
-						People . Seed . Technology
-					</p>
 				</div>
 			</div>
 
-			<div className="mx-auto mt-4 pb-8 pt-12">
+			{/* <Image
+				src={waveImg}
+				alt=""
+				className="absolute -z-10 w-screen select-none object-cover"
+			/> */}
+
+			<div className="mx-auto mt-4 self-end pb-8 pt-12">
 				<HiOutlineChevronDoubleDown className="text-pts_blue animate-bounce text-6xl" />
 			</div>
 		</section>
