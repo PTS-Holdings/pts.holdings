@@ -7,9 +7,9 @@ const HeroSection = () => {
 	return (
 		<section
 			id="hero"
-			className="container flex h-[75vh] flex-col items-center justify-center text-center "
+			className="container flex h-[75vh] flex-col items-center justify-center pt-32 text-center "
 		>
-			<div className="  flex flex-col items-center justify-center">
+			<div className=" flex flex-col items-center justify-center">
 				<h2 className="text-5xl font-bold">
 					Ready to build the future
 				</h2>

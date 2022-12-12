@@ -3,7 +3,7 @@ import { ImLinkedin } from "react-icons/im";
 
 const PersonalCard = ({ img, name, title, linkedin }) => {
 	return (
-		<div>
+		<div className="">
 			<Image
 				src={img}
 				alt={`${name} img`}
@@ -13,7 +13,7 @@ const PersonalCard = ({ img, name, title, linkedin }) => {
 			<p className="font-light">{title}</p>
 
 			{linkedin && (
-				<div className="w-fit cursor-pointer">
+				<div className="mt-2 w-fit cursor-pointer">
 					<a href={linkedin} target="_blank" rel="noreferrer">
 						<ImLinkedin />
 					</a>

@@ -1,10 +1,16 @@
 import PersonalCard from "components/PersonCard";
 import Title from "components/Title";
 import abdulaziz from "public/assets/abd-elaziz-mandour.png";
+import ahmedNafie from "public/assets/ahmedNafie.jpg";
+import ehab from "public/assets/ehab.jpg";
 import eman from "public/assets/eman.png";
+import farida from "public/assets/farida.jpg";
+import hossam from "public/assets/hossam.jpg";
 import maha from "public/assets/maha.png";
+import omneya from "public/assets/omneya.jpg";
+import reem from "public/assets/reem.jpg";
 import tarek from "public/assets/tarek.png";
-import walied from "public/assets/waled.jpeg";
+import walied from "public/assets/walid.png";
 
 const BoardMembers = () => {
 	const boardMembers = [
@@ -38,11 +44,48 @@ const BoardMembers = () => {
 			title: "Chairman of Kemtix Technologies",
 			linkedin: "https://www.linkedin.com/in/walidazab/",
 		},
+		{
+			img: ehab,
+			name: "Dr. Ehab Kamel",
+			title: "Chairman of Edam Healthcare",
+			linkedin: "https://www.linkedin.com/in/ehabkamel/",
+		},
+		{
+			img: ahmedNafie,
+			name: "Eng. Ahmed Nafie",
+			title: `Managing Partner ORO Ventures Lab`,
+			linkedin: "https://www.linkedin.com/in/ahmed-nafie-5873827/",
+		},
+		{
+			img: reem,
+			name: "Reem Khatab",
+			title: "Limited Partner in ORO Ventures Lab",
+			linkedin: "https://www.linkedin.com/in/reem-khattab-090a08232/",
+		},
+		{
+			img: hossam,
+			name: "Hussam Mamdouh",
+			title: `Limited Partner ORO Ventures Lab`,
+			linkedin: "https://www.linkedin.com/in/hussam-mamdouh-180034215/",
+		},
+		{
+			img: omneya,
+			name: "Omnia AL Ghuzzay",
+			title: `Limited Partner ORO Ventures Lab`,
+			linkedin: "https://www.linkedin.com/in/omneya-al-ghuzzy-86497a231/",
+		},
+		{
+			img: farida,
+			name: "Farida Fahmy",
+			title: `Limited Partner ORO Ventures Lab`,
+			linkedin: "https://www.linkedin.com/in/farida-fahmy-31058a24b/",
+		},
 	];
 	return (
 		<section id="board" className="container">
-			<Title text="Board Members" />
-			<div className="mt-12 flex flex-wrap justify-center gap-10 md:justify-start">
+			<Title text="Management Team" />
+			{/* <div className="mt-12 grid grid-cols-1 justify-center gap-10 md:grid-cols-3 md:justify-start lg:grid-cols-5"> */}
+			<div className="mt-12 flex flex-wrap  justify-center gap-10 lg:justify-start">
 				{boardMembers.map((member) => (
 					<PersonalCard
 						key={member.name}
