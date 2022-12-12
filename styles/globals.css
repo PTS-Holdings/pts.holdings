@@ -2,11 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
 html {
   @apply text-pts-blue-dark
 }
 
 html{
+  font-family: 'Tajawal', sans-serif;
   scroll-behavior: smooth;
 }
 

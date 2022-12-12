@@ -29,7 +29,7 @@ const BoardMembers = () => {
 		{
 			img: eman,
 			name: "Dr. Eman Wadie",
-			title: "Chairman of ORO Ventures Lap",
+			title: "Chairman of ORO Ventures Lab",
 			linkedin: "https://www.linkedin.com/in/eman-wadie-88b772a1/",
 		},
 		{

@@ -17,43 +17,41 @@ const Subsidiaries = () => {
 			<Title text="PTS Subsidiaries" />
 			<div id="subsidiaries" className="mt-8 grid gap-9 md:grid-cols-2">
 				<CompanyTransCard
-					title="ORO Capital Investment"
-					description={
-						"The company provides a full-fledged investment services serving diverse customers from startups to enterprises seeking for valuable investment opportunities, our services include MicroFinancing, Fund raising and M&A advisory"
-					}
+					title="ORO Partners LLC"
+					description={`ORO Partners (COREangels MEA) is an angel investment network connect and support business angels, early stage investors, entrepreneurs and corporates seeking investing opportunities mainly in tech-disruptive innovations throughout Middle-East and Africa, the group is managed by ORO Partners, subsidiary of PTS Investments Holdings in cooperation with COREangels
+							It’s a diverse expertise group that share global ambition to help innovative startups ideas through fast track of support whether in investment or in kind-services through its affiliate company ORO VenturesLab.
+					`}
+					img={oroPartnersLogo}
+				/>
+
+				<CompanyTransCard
+					title="ORO Capital LLC"
+					description={` ORO Capital is the designed investment guide that establishes financial prosperity, creates sustainable economic gains, the hassle-free, smart experienced that allows entities and individuals to get closer to their goals,						
+						ORO Capital is the Solution to offer businesses the most flexible portfolio management and investment solution operating fully serviced for short-term and long-term investments. 
+						It is to ensure your personalized portfolio investment is managed seamlessly, technically, and professionally 
+						`}
 					img={oroCapitalLogo}
 					href="https://oro-capital.com"
 				/>
 
 				<CompanyTransCard
-					title="ORO Partners"
-					description={
-						"ORO Partners (CoreAngels MEA) is an angel investment network connect and support business angels, early stage investors, entrepreneurs and corporates seeking investing opportunities mainly in tech-disruptive innovations throughout Middle-East and Africa."
-					}
-					img={oroPartnersLogo}
-				/>
-
-				<CompanyTransCard
-					title="ORO Ventures Lap"
-					description={
-						"ORO Ventures Lap offers managed services related to OroCapital global funds and wealth management portfolio, talent acquisitions, venture studio support functions, training, and human resources development, ORO Ventures Lap deliverers the required human resources to support activities related to capital markets, we have distinct teams with diversified expertise that participated in mega projects in 20 countries."
-					}
+					title="ORO Ventures Lab LLC"
+					description={`ORO Ventures Lab is a sophisticated company-based incubator and accelerator, derived from the US-based holding company PTS Holding Investment. 
+					The lab enables startups to capitalize on Egyptian tech related intellectual capital, world-class facilities and research capacities. It connects innovative startups with high end investors network that includes, faculty, mentors and investors. 
+					Through this, it fosters a thriving ecosystem of innovation, education and responsible business.
+					`}
 					img={oroVentureLogo}
 				/>
 
 				<CompanyTransCard
 					title="PTS Projects"
-					description={
-						"PTS Projects, a subsidiary of PTS Holdings Inc., a leading Tech-investments group of companies that aims to add direct value in the investment value chain through its expertise along with global partners building robust ecosystem to help businesses mainly entrepreneurs, startups and SMES, "
-					}
+					description={`PTS is an entrepreneurial firm that invests smart capital and provides unique  solutions for those seeking for valuable investment opportunities. The company provides a full-fledged integrated services, potentially it is the operating and investment vehicle adequate for the group and the initiator of cross boarder potential business acquisitions that coordinates business and interests in Technology , energy and other potential sectors starting from startups to mid-scale and enterprises.`}
 					img={ptsProjectsLogo}
 				/>
 
 				<CompanyTransCard
-					title="Kemtix Technologies"
-					description={
-						"Specialized in Advanced Technological Industries to blend our senior level engineering expertise with our innovative ideas and link our expert capabilities with business objectives resulting in the delivery of next generation products, with managed and professional services delivery."
-					}
+					title="Kemtix Technologies LLC"
+					description={`Specialized in Advanced Technological Industries to blend our senior level engineering expertise with our innovative ideas and link our expert capabilities with business objectives resulting in the delivery of next generation products, with managed and professional services delivery. We have pledged ourselves to serve our customers and win their trust through timely implementation with the advice of experienced consultants, for implementing tailoring and streamlining systems to clients’ specific needs focusing mainly on disruptive technologies, providing set of tech products and platforms, adopting a one-stop shop approach enabling us to offer exceptional deliverables to our clients.`}
 					img={kemtixLogo}
 				/>
 
@@ -61,23 +59,29 @@ const Subsidiaries = () => {
 					title="Ignite (Kemtix innovation)"
 					href={"https://ignite-virtual.com/"}
 					description={
-						"Ignite helps revolutionize education in Schools to build a better future for education and for the learner. They aspire to reshape the methods of thinking, learning and training and to provide a training and scientific service for children and adults through a trained and qualified team based on the methods of management theory using the latest technology today (Virtual / Augmented Reality) and based on the activities and practical situations derived from their values and our Arab civilization to contribute to the provision of distinct human cadres"
+						"Ignite helps revolutionize education in Schools to build a better future for education and for the learner. They aspire to reshape the methods of thinking, learning and training and to provide a training and scientific service for children and adults through a trained and qualified team based on the methods of management theory using the latest technology today (Virtual / Augmented Reality) and based on the activities and practical situations derived from their values and our Arab civilization to contribute to the provision of distinct human cadres."
 					}
 					img={igniteLogo}
 				/>
 
 				<CompanyTransCard
 					title="SharpGate (Kemtix Systems)"
-					description={`Sharp Gate is a software development company which develops applications around Cisco UC and DMS solutions, aiming to enhance efficiency and simplify user experience.`}
+					description={`Sharp Gate is a software development company that offers bespoke software solutions, middleware,
+					and systems integration services. Their mission is to deliver most robust and easy-to-use software
+					solutions to all clients in order to help them improve IT efficiency and business profitability. They are
+					passionate about creating a user-friendly, simple, and clean design for their clients. Their team of
+					knowledgeable and experienced staff enables them to provide their customers with an effective and
+					dynamic service. Sharp Gate has a strong reputation for exceeding client expectations with high-
+					quality work and quick turnaround times.`}
 					href="http://sharpgate.com"
 					img={sharpgageLogo}
 				/>
 
 				<CompanyTransCard
-					title="Edam"
+					title="EDAM Healthcare Services S.A.E"
 					href={"https://edamhealth.com"}
 					description={
-						"Edam is the largest health care network in Egypt that provides you with medical examinations in various medical specialties with the best doctors and at the prices of the Engineers and Doctors Syndicate"
+						"EDAM has become the first choice for those wishing to obtain health care programs by cooperating with a group of leading medical service providers and improving the quality-of-care programs for our customers and subscribers in the best way.\n \n EDAM seeks to raise the quality of medical services provided to our clients by providing distinguished cadres in medical care at the best prices in order to achieve the best health and financial return for all with a  goal to become the first and best partner for medical service providers and those wishing to benefit from Edam."
 					}
 					img={edamLogo}
 				/>
