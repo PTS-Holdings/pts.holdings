@@ -26,7 +26,7 @@ const Navbar = () => {
 	];
 	return (
 		<nav
-			className={`sticky top-0 z-50 flex h-11 w-screen items-center justify-between bg-white py-10 shadow-sm md:px-10`}
+			className={`sticky top-0 z-50 flex h-11 w-screen max-w-full items-center justify-between bg-white py-10 shadow-sm md:px-10`}
 		>
 			<Image
 				src={holdingLogo}
