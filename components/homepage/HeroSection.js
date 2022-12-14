@@ -7,10 +7,10 @@ const HeroSection = () => {
 	return (
 		<section
 			id="hero"
-			className="container flex h-[75vh] flex-col items-center justify-center pt-32 text-center "
+			className="container relative flex h-[90vh] flex-col items-center justify-center text-center "
 		>
 			<div className=" flex flex-col items-center justify-center">
-				<h2 className="text-5xl font-bold">
+				<h2 className="text-4xl font-bold md:text-5xl">
 					Ready to build the future
 				</h2>
 				<p className="mt-4 md:w-1/2">
@@ -43,7 +43,7 @@ const HeroSection = () => {
 				className="absolute -z-10 w-screen select-none object-cover"
 			/> */}
 
-			<div className="mx-auto mt-4 self-end pb-8 pt-12">
+			<div className="mx-auto mt-4 pb-8 pt-12">
 				<HiOutlineChevronDoubleDown className="text-pts_blue animate-bounce text-6xl" />
 			</div>
 		</section>

@@ -22,6 +22,9 @@ module.exports = {
 			backgroundImage: {
 				pattern: "url('/assets/bg-texture.png')",
 			},
+			fontFamily: {
+				tajawal: ['"Tajawal"', "sans-serif"],
+			},
 		},
 	},
 	plugins: [],

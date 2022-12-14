@@ -45,9 +45,9 @@ const Navbar = () => {
 						href={navLink.link}
 						onClick={() => setOpen(false)}
 					>
-						<li className="group relative mx-auto w-8/12 cursor-pointer  md:w-fit ">
+						<li className="group relative mx-auto w-8/12 cursor-pointer md:w-fit ">
 							<span>{navLink.name}</span>
-							<span className="absolute bottom-1 left-0 h-1 w-0 rounded-full bg-pts-blue-base transition-all group-hover:w-full"></span>
+							<span className="absolute bottom-0 left-0 h-1 w-0 rounded-full bg-pts-blue-base transition-all group-hover:w-full"></span>
 						</li>
 					</a>
 				))}
