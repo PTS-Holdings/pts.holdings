@@ -11,18 +11,18 @@ const ChairmanWord = () => {
 				to the investment management industry.
 				<br />
 				PTS group of companies have been focusing to add a significant
-				value to the global disrupted technological ecosystems and
+				value to the global disruptive technological ecosystems and
 				industry-wide platforms through developing and investing in the
 				people and technology.
 				<br />
-				We have adapt ecosystem-based approach enabling us to serve as a
-				catalyst for our investment portfolios success. Tapping our deep
-				industry knowledge of our diverse team members and our robust
-				ecosystem of collaborative partners enabling us to provide a
-				suite of tailored products and services for both our motivated
-				entrepreneur, governments and investors to help businesses build
-				resilience, spur innovation, expedite growth and expand into key
-				markets.
+				We have adapted ecosystem-based approach enabling us to serve as
+				a catalyst for our investment portfolios success. Tapping our
+				deep industry knowledge of our diverse team members and our
+				robust ecosystem of collaborative partners enabling us to
+				provide a suite of tailored products and services for both our
+				motivated entrepreneurs, governments, and investors to help
+				businesses build resilience, spur innovation, expedite growth
+				and expand into key markets.
 				<br />
 				<br />
 				On 2021, we had a strategic direction to build and manage secure
@@ -45,7 +45,7 @@ const ChairmanWord = () => {
 				<Image
 					src={signatureImg}
 					alt="Eng. Abdulaziz mandour"
-					className="h-14 "
+					className="h-14 w-auto"
 				/>
 			</div>
 		</section>

@@ -15,9 +15,9 @@ const HeroSection = () => {
 				</h2>
 				<p className="mt-4 md:w-1/2">
 					We are flexible, understanding that business conditions
-					change, goals change, and technology changes, We
+					change, goals change, and technology changes. We
 					continuously seek ways to develop and improve ourselves,
-					both as a company and as individual employees.
+					both as a company and as individuals
 				</p>
 				<div className=" mt-8 flex w-fit flex-wrap items-center justify-center gap-4">
 					<Image
@@ -32,7 +32,7 @@ const HeroSection = () => {
 					<Image
 						src={signatureImg}
 						alt="Eng. Abdulaziz mandour"
-						className="h-14 "
+						className="h-14 w-auto"
 					/>
 				</div>
 			</div>
