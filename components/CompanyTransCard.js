@@ -2,22 +2,14 @@ import Image from "next/image";
 import { useState } from "react";
 import { FiExternalLink } from "react-icons/fi";
 import { VscChevronDown } from "react-icons/vsc";
-const CompanyTransCard = ({ title, img, description, href, buttonColor }) => {
-	const [isOpened, setOpened] = useState(true);
-	// if (!buttonColor) buttonColor = "#222222";
-
+const CompanyTransCard = ({ title, img, description, href, borderColor }) => {
 	return (
 		<div
-			className={`relative inline-block rounded-2xl border bg-white  drop-shadow-sm transition md:min-w-[40%] md:flex-1	 ${
-				isOpened
-					? "column-span-2 row-span-2 bg-slate-100 "
-					: " h-36 overflow-hidden "
-			}`}
+			className={`column-span-2 relative row-span-2 inline-block rounded-2xl border bg-slate-100 transition md:min-w-[40%]	md:flex-1`}
+			style={{ borderBottom: `3px solid ${borderColor}` }}
 		>
 			<div
-				className={` flex flex-col items-start gap-8 rounded-2xl  p-10  transition-all md:flex-row ${
-					isOpened ? "h-fit " : " overflow-hidden"
-				}`}
+				className={`flex h-fit flex-col items-start gap-8  rounded-2xl  p-10 transition-all md:flex-row `}
 			>
 				<div className="w-[60%]  md:w-[20%] ">
 					<Image

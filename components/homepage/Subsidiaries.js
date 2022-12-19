@@ -22,6 +22,7 @@ const Subsidiaries = () => {
 							It’s a diverse expertise group that share global ambition to help innovative startups ideas through fast track of support whether in investment or in kind-services through its affiliate company ORO Ventures Lab
 					`}
 					img={oroPartnersLogo}
+					borderColor="#cfa024"
 				/>
 
 				<CompanyTransCard
@@ -32,6 +33,7 @@ const Subsidiaries = () => {
 						`}
 					img={oroCapitalLogo}
 					href="https://oro-capital.com"
+					borderColor="#cfa024"
 				/>
 
 				<CompanyTransCard
@@ -41,12 +43,7 @@ const Subsidiaries = () => {
 					Through this, it fosters a thriving ecosystem of innovation, education and responsible business.
 					`}
 					img={oroVentureLogo}
-				/>
-
-				<CompanyTransCard
-					title="PTS Projects"
-					description={`PTS is a firm that invests smart capital and provides unique solutions for entrepreneurs seeking for valuable investment opportunities. The company provides full-fledged integrated services. Potentially, it is the operating and investment vehicle adequate for the group and the initiator of cross boarder potential business acquisitions that coordinates business and interests in technology, energy, and other potential sectors mainly for startups and SMEs`}
-					img={ptsProjectsLogo}
+					borderColor="#cfa024"
 				/>
 
 				<CompanyTransCard
@@ -56,12 +53,21 @@ const Subsidiaries = () => {
 						"EDAM has become the first choice for those wishing to obtain health care programs by cooperating with a group of leading medical service providers and improving the quality-of-care programs for our customers and subscribers in the best way.\n \n EDAM seeks to raise the quality of medical services provided to our clients by providing distinguished cadres in medical care at the best prices in order to achieve the best health and financial return for all with a  goal to become the first and best partner for medical service providers and those wishing to benefit from Edam"
 					}
 					img={edamLogo}
+					borderColor="#0a4f9d"
+				/>
+
+				<CompanyTransCard
+					title="PTS Projects"
+					description={`PTS is a firm that invests smart capital and provides unique solutions for entrepreneurs seeking for valuable investment opportunities. The company provides full-fledged integrated services. Potentially, it is the operating and investment vehicle adequate for the group and the initiator of cross boarder potential business acquisitions that coordinates business and interests in technology, energy, and other potential sectors mainly for startups and SMEs`}
+					img={ptsProjectsLogo}
+					borderColor="#e20735"
 				/>
 
 				<CompanyTransCard
 					title="Kemtix Technologies LLC"
 					description={`Specialized in Advanced Technological Industries to blend our senior level engineering expertise with our innovative ideas and link our expert capabilities with business objectives resulting in the delivery of next generation products, with managed and professional services delivery. We have pledged ourselves to serve our customers and win their trust through timely implementation with the advice of experienced consultants for implementing tailoring and streamlining systems to clients’ specific needs focusing mainly on disruptive technologies, providing set of tech products and platforms, adopting a one-stop shop approach enabling us to offer exceptional deliverables to our clients`}
 					img={kemtixLogo}
+					borderColor="#1f3c85"
 				/>
 
 				<CompanyTransCard
@@ -70,6 +76,7 @@ const Subsidiaries = () => {
 					description={`Ignite helps revolutionize education in schools to build a better future for education. We aspire to reshape thinking, learning, and training methods to provide better training and scientific services for children and adults through our qualified team based on the latest technologies today (Virtual/Augmented Reality).
 									We contribute to the provision of distinct human cadres based on the activities and practical situations derived from their values and our Arab civilization`}
 					img={igniteLogo}
+					borderColor="#1f3c85"
 				/>
 
 				<CompanyTransCard
@@ -83,6 +90,7 @@ const Subsidiaries = () => {
 					quality work and quick turnaround times`}
 					href="http://sharpgate.com"
 					img={sharpgageLogo}
+					borderColor="#1f3c85"
 				/>
 			</div>
 			<div className="mt-16">
@@ -96,6 +104,7 @@ const Subsidiaries = () => {
 					}
 					img={kemtechlogo}
 					href="https://kemtech.org"
+					borderColor="#f7a41c"
 				/>
 
 				<CompanyTransCard
@@ -104,6 +113,7 @@ const Subsidiaries = () => {
 						"MENTORS’ 4 AFRICA is an initiative built by MENTORS’ HQ and MEA in cooperation with Instadeel inc. to support the ecosystem for all African startups, SMEs, and entrepreneurs to learn, develop, build, and grow locally and internationally. Our long-term vision builds to cover different dimensions: Population (Both Gender, Women in Business, Junior Talents, African immigrant and People with Special Abilities) sectors, (Education, Health care, Agriculture, Fintech, Mining,  Environmental, and Sustainability) "
 					}
 					img={mentors4africaLogo}
+					borderColor="#4d8548"
 				/>
 			</div>
 		</section>
