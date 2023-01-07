@@ -26,7 +26,7 @@ const BoardMembers = () => {
 		},
 		{
 			img: maha,
-			name: "Eng. Maha Mandourr",
+			name: "Eng. Maha Mandour",
 			title: "Group Managing Director",
 			company: "PTS Investments Holdings",
 			linkedin: "https://www.linkedin.com/in/maha-m-61a04177/",
