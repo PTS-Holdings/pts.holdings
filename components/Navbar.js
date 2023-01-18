@@ -12,7 +12,7 @@ const Navbar = () => {
 			link: "#chairman-word",
 		},
 		{
-			name: "Board Members",
+			name: "Management Team",
 			link: "#board",
 		},
 		{
