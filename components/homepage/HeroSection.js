@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ceoImg from "public/assets/abd-elaziz-mandour.png";
+import ceoImg from "public/assets/abd-elaziz-mandour.webp";
 import signatureImg from "public/assets/signature.svg";
 import waveImg from "public/assets/wave.svg";
 import { HiOutlineChevronDoubleDown } from "react-icons/hi";
@@ -26,8 +26,12 @@ const HeroSection = () => {
 						className="h-14 w-14 rounded-full"
 					/>
 					<div>
-						<h3 className=" font-bold">Eng. Abdulaziz Mandour</h3>
-						<p className=" font-light">Chairman of PTS Holdings</p>
+						<h3 className=" whitespace-nowrap font-bold	">
+							Eng. Abdulaziz Mandour
+						</h3>
+						<p className=" whitespace-nowrap font-light">
+							Chairman of PTS Holdings
+						</p>
 					</div>
 					<Image
 						src={signatureImg}

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import compassImg from "/public/assets/compass.jpg";
+import compassImg from "/public/assets/compass.webp";
 const VisionSection = () => {
 	return (
 		<section className="container flex h-fit flex-col-reverse items-center justify-center gap-12 md:flex-row md:items-end">

@@ -1,115 +1,101 @@
 import PersonalCard from "components/PersonCard";
 import Title from "components/Title";
-import abdulaziz from "public/assets/abd-elaziz-mandour.png";
-import ahmedNafie from "public/assets/ahmedNafie.jpg";
-import ehab from "public/assets/ehab.jpg";
-import eman from "public/assets/eman.png";
-import farida from "public/assets/farida.jpg";
-import hossam from "public/assets/hossam.jpg";
-import maha from "public/assets/maha.png";
-import marwa from "public/assets/marwa.png";
-import omar from "public/assets/omar.png";
-import omneya from "public/assets/omneya.jpg";
-import reem from "public/assets/reem.jpg";
-import shady from "public/assets/shady.png";
-import tarek from "public/assets/tarek.png";
-import walied from "public/assets/walid.png";
 
 const BoardMembers = () => {
 	const boardMembers = [
 		{
-			img: abdulaziz,
+			img: "/assets/abd-elaziz-mandour.webp",
 			name: "Eng. Abdul-aziz Mandour",
 			title: "Chairman",
 			company: "PTS Investments Holdings",
 			linkedin: null,
 		},
 		{
-			img: maha,
+			img: "/assets/maha.webp",
 			name: "Eng. Maha Mandour",
 			title: "Group Managing Director",
 			company: "PTS Investments Holdings",
 			linkedin: "https://www.linkedin.com/in/maha-m-61a04177/",
 		},
 		{
-			img: tarek,
+			img: "/assets/tarek.webp",
 			name: "Eng. Tarek Mohamed",
 			title: "Chairman",
 			company: "ORO Capital Investments",
 			linkedin: "https://www.linkedin.com/in/tarek-mohamed-8042695/",
 		},
 		{
-			img: ehab,
+			img: "/assets/ehab.webp",
 			name: "Dr. Ehab Kamel",
 			title: "Chairman",
 			company: "EDAM SAE",
 			linkedin: "https://www.linkedin.com/in/ehabkamel/",
 		},
 		{
-			img: walied,
+			img: "/assets/walid.webp",
 			name: "Dr. Walid Azab",
 			title: "Chief Executive Officer",
 			company: "Kemtix Technologies",
 			linkedin: "https://www.linkedin.com/in/walidazab/",
 		},
 		{
-			img: eman,
+			img: "/assets/eman.webp",
 			name: "Dr. Eman Wadie",
 			title: "Chief Executive Officer",
 			company: "Kemtix Innovations",
 			linkedin: "https://www.linkedin.com/in/eman-wadie-88b772a1/",
 		},
 		{
-			img: ahmedNafie,
+			img: "/assets/ahmedNafie.webp",
 			name: "Eng. Ahmed Nafie",
 			title: `Managing Partner`,
 			company: "ORO Ventures Lab",
 			linkedin: "https://www.linkedin.com/in/ahmed-nafie-5873827/",
 		},
 		{
-			img: marwa,
+			img: "/assets/marwa.webp",
 			name: "Marwa Gawdat",
 			title: `Chief Executive Officer`,
 			company: "EDAM SAE",
 			linkedin: "https://www.linkedin.com/in/marwa-gawdat-570794128/",
 		},
 		{
-			img: shady,
+			img: "/assets/shady.webp",
 			name: "Shady Gabr",
 			title: `Managing Director`,
 			company: "Alliance Capital",
 			linkedin: "https://www.linkedin.com/in/shgabr/",
 		},
 		{
-			img: reem,
+			img: "/assets/reem.webp",
 			name: "Reem Khatab",
 			title: "Limited Partner",
 			company: "ORO Ventures Lab",
 			linkedin: "https://www.linkedin.com/in/reem-khattab-090a08232/",
 		},
 		{
-			img: hossam,
+			img: "/assets/hossam.webp",
 			name: "Hussam Mamdouh",
 			title: `Limited Partner`,
 			company: "ORO Ventures Lab",
 			linkedin: "https://www.linkedin.com/in/hussam-mamdouh-180034215/",
 		},
 		{
-			img: omneya,
+			img: "/assets/omneya.webp",
 			name: "Omneya Al Ghuzzy",
 			title: `Limited Partner`,
 			company: "ORO Ventures Lab",
 			linkedin: "https://www.linkedin.com/in/omneya-al-ghuzzy-86497a231/",
 		},
 		{
-			img: farida,
+			img: "/assets/farida.webp",
 			name: "Farida Fahmy",
 			title: `Limited Partner`,
 			company: "ORO Ventures Lab",
 			linkedin: "https://www.linkedin.com/in/farida-fahmy-31058a24b/",
 		},
 		{
-			img: omar,
+			img: "/assets/omar.webp",
 			name: "Omar Sakr",
 			title: `Limited Partner`,
 			company: "Kemtix Technologies",

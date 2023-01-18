@@ -7,6 +7,8 @@ const PersonalCard = ({ img, name, title, company, linkedin }) => {
 			<Image
 				src={img}
 				alt={`${name} img`}
+				width={208}
+				height={208}
 				className="w-full rounded-lg md:w-52"
 			/>
 			<p className="mt-4 font-bold">{name}</p>

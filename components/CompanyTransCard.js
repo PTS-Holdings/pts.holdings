@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import { useState } from "react";
 import { FiExternalLink } from "react-icons/fi";
@@ -16,6 +17,8 @@ const CompanyTransCard = ({ title, img, description, href, borderColor }) => {
 						src={img}
 						alt={`${title} img`}
 						className="h-20 w-fit"
+						width="100"
+						height="100"
 					/>
 				</div>
 				<div className="md:w-[80%]">
@@ -25,10 +28,12 @@ const CompanyTransCard = ({ title, img, description, href, borderColor }) => {
 							href={href}
 							target="_blank"
 							rel="noreferrer"
-							className="flex w-fit items-center underline"
+							className="flex w-full  items-center underline "
 						>
 							<span>{<FiExternalLink />}</span>
-							<p>{href.split("/")[2]}</p>
+							<p className="whitespace-nowrap	">
+								{href.split("/")[2]}
+							</p>
 						</a>
 					)}
 					<p className=" mt-2 h-fit break-inside-auto">
