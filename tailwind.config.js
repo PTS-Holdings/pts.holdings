@@ -18,11 +18,13 @@ module.exports = {
 			},
 			fontFamily: {
 				montserrat: ["Montserrat", "sans-serif"],
+				pt: ["PT Sans", "sans-serif"],
 			},
 
 			container: {
 				center: true,
 				padding: {
+					DEFAULT: "1rem",
 					sm: "16px",
 					md: "80px",
 					lg: "120px",

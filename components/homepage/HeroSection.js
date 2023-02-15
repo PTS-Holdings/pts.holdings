@@ -5,46 +5,41 @@ import waveImg from "public/assets/wave.svg";
 import { HiOutlineChevronDoubleDown } from "react-icons/hi";
 const HeroSection = () => {
 	return (
-		<section
-			id="hero"
-			className="container flex h-[75vh] flex-col items-center justify-center text-center "
-		>
-			<div className="  flex flex-col items-center justify-center">
-				<h2 className="text-5xl font-bold">
-					Ready to build the future
+		<section className="container flex flex-col-reverse items-center justify-center py-8 lg:flex-row lg:justify-between">
+			<div className="space-y-3 text-center lg:w-1/2 lg:text-left">
+				<h2 className="title-large lg:herder1 mx-auto w-[80%] font-pt font-bold text-navy-basic lg:w-full">
+					Ready to build the future now ?
 				</h2>
-				<p className="mt-4 md:w-1/2">
+				<p className="">
 					We are flexible, understanding that business conditions
-					change, goals change, and technology changes, We
+					change, goals change, and technology changes. We
 					continuously seek ways to develop and improve ourselves,
-					both as a company and as individual employees.
+					both as a company and as individuals.....
 				</p>
-				<div className=" mt-8 flex w-fit flex-wrap items-center justify-center gap-4">
+				<div className="flex flex-wrap items-center justify-center gap-3 lg:w-fit">
 					<Image
 						src={ceoImg}
 						alt="Eng. Abdulaziz mandour"
-						className="h-14 w-14 rounded-full"
+						className=" h-8 w-8 rounded-full"
 					/>
 					<div>
-						<h3 className=" font-bold">Eng. Abdulaziz Mandour</h3>
-						<p className=" font-light">Chairman of PTS Holdings</p>
+						<h3 className="body-medium-bold">
+							Eng. Abdulaziz Mandour
+						</h3>
+						<p className=" body-small-regular">
+							Chairman of PTS Holdings
+						</p>
 					</div>
-					<Image
-						src={signatureImg}
-						alt="Eng. Abdulaziz mandour"
-						className="h-14 "
-					/>
 				</div>
 			</div>
-
-			{/* <Image
-				src={waveImg}
-				alt=""
-				className="absolute -z-10 w-screen select-none object-cover"
-			/> */}
-
-			<div className="mx-auto mt-4 self-end pb-8 pt-12">
-				<HiOutlineChevronDoubleDown className="text-pts_blue animate-bounce text-6xl" />
+			<div className="">
+				<Image
+					layout="fixed"
+					src={"/assets/pics/text-on-world-map.png"}
+					alt="bushiness text on world map"
+					width={530}
+					height={340}
+				/>
 			</div>
 		</section>
 	);
