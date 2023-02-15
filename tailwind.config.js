@@ -7,17 +7,26 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				pts: {
-					red: "#E40935",
-					blue: {
-						base: "#2A3E6B",
-						dark: "#1F2E50",
-					},
+				white: "#fefefe",
+				black: "#121212",
+				gray: {
+					bold: "#777575",
+					basic: "#cacaca",
 				},
+				red: { basic: "#c60035", dark: "#900026", light: "#ff7096" },
+				navy: { basic: "#334069", dark: "#1d2540", light: "#8898c8" },
 			},
+			fontFamily: {
+				montserrat: ["Montserrat", "sans-serif"],
+			},
+
 			container: {
-				padding: "2rem",
 				center: true,
+				padding: {
+					sm: "16px",
+					md: "80px",
+					lg: "120px",
+				},
 			},
 			backgroundImage: {
 				pattern: "url('/assets/bg-texture.png')",
