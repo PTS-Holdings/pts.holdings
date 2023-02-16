@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
 	return (
-		<footer className={`caption_regular mt-7 border-t-2  p-4`}>
+		<footer className={`caption-regular mt-7 border-t-2  p-4`}>
 			<div className="container flex justify-between">
 				<p>@2022 ALL rights reserved.</p>
 				<a href="https://www.linkedin.com/company/pts-holdings/">

@@ -6,15 +6,15 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
 
 @layer components{
-  .herder1{
+  .header1{
     @apply font-montserrat font-extrabold text-[56px] tracking-[1px] leading-[72px]
   }
 
-  .herder2{
+  .header2{
     @apply font-montserrat font-bold text-[42px] tracking-[0.5px] leading-[56px]
   }
 
-  .herder3{
+  .header3{
     @apply font-montserrat font-bold text-[30px] tracking-[0px] leading-[40px]
   }
 
