@@ -1,7 +1,4 @@
-import BoardMembers from "components/homepage/BoardMembers";
-import ChairmanWord from "components/homepage/ChairmanWord";
-import Subsidiaries from "components/homepage/Subsidiaries";
-import VisionSection from "components/homepage/VisionSection";
+import StrategySection from "components/homepage/StrategySection";
 import Head from "next/head";
 import Image from "next/image";
 import HeroSection from "../components/homepage/HeroSection";
@@ -19,12 +16,9 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<main className="space-y-16 overflow-hidden">
+			<main className="container space-y-[100px] overflow-hidden">
 				<HeroSection />
-				<ChairmanWord />
-				<VisionSection />
-				<BoardMembers />
-				<Subsidiaries />
+				<StrategySection />
 			</main>
 		</div>
 	);
