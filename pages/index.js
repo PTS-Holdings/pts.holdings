@@ -1,4 +1,5 @@
 import StrategySection from "components/homepage/StrategySection";
+import WhoWeAreSection from "components/homepage/WhoWeAreSection";
 import Head from "next/head";
 import Image from "next/image";
 import HeroSection from "../components/homepage/HeroSection";
@@ -19,6 +20,7 @@ export default function Home() {
 			<main className="container space-y-[100px] overflow-hidden">
 				<HeroSection />
 				<StrategySection />
+				<WhoWeAreSection />
 			</main>
 		</div>
 	);
