@@ -29,7 +29,6 @@
   .body-large-regular{
     @apply font-montserrat font-normal text-[20px] tracking-[0px] leading-[32px]
   }
-
   .body-medium-bold{
     @apply font-montserrat font-bold text-[16px] tracking-[0px] leading-[24px]
   }
@@ -61,7 +60,7 @@
 
 @layer base{
   html{
-    @apply text-black font-montserrat body-medium-regular md:body-large-regular
+    @apply text-black font-montserrat 
   }
 }
 
