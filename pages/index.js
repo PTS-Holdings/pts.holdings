@@ -1,4 +1,6 @@
+import CompanyCard from "components/CompanyCard";
 import StrategySection from "components/homepage/StrategySection";
+import SubsidiariesSection from "components/homepage/SubsidiariesSection";
 import WhoWeAreSection from "components/homepage/WhoWeAreSection";
 import Head from "next/head";
 import Image from "next/image";
@@ -21,6 +23,7 @@ export default function Home() {
 				<HeroSection />
 				<StrategySection />
 				<WhoWeAreSection />
+				<SubsidiariesSection />
 			</main>
 		</div>
 	);
