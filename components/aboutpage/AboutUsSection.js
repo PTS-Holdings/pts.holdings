@@ -3,7 +3,7 @@ import Image from "next/image";
 const AboutUsSection = () => {
 	return (
 		<section className="s my-10 rounded-lg bg-white p-10 shadow-lg">
-			<h1 className=" md:header3 body-medium-bold mb-6 text-center">
+			<h1 className=" md:header3 body-medium-bold mb-6 text-center text-navy-basic">
 				About us
 			</h1>
 			<div className="space-y-[40px]">
