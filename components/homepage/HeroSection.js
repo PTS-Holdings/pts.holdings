@@ -6,7 +6,7 @@ import { HiOutlineChevronDoubleDown } from "react-icons/hi";
 const HeroSection = () => {
 	return (
 		<section className="flex flex-col-reverse items-center justify-center pt-8 lg:flex-row lg:justify-between">
-			<div className="mr-8 space-y-3 text-center lg:w-1/2 lg:text-left">
+			<div className="space-y-3 text-center md:mr-8 lg:w-1/2 lg:text-left">
 				<h2 className="title-large lg:header1 mx-auto w-[80%] font-pt font-bold text-navy-basic lg:w-full">
 					Ready to build the future now ?
 				</h2>
