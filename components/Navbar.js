@@ -89,24 +89,24 @@ const Navbar = () => {
 								return (
 									<li
 										key={navLink.name}
-										className="group relative flex h-16 items-center "
+										className="group relative flex h-16 items-center text-gray-bold  hover:text-navy-basic"
 									>
 										{/* Add a Divider to the except for the first link  */}
 										{i != 0 && (
-											<div className="mx-8 h-full w-[0.5px] bg-navy-dark"></div>
+											<div className="mx-8 h-full w-[0.5px] bg-navy-dark "></div>
 										)}
 										{/* Main nav link & description */}
 										<a href={navLink.href}>
-											<p className="body-medium-bold text-gray-bold">
+											<p className="body-medium-bold ">
 												{navLink.name}
 											</p>
-											<p className="caption-regular w-[80%] text-gray-bold">
+											<p className="caption-regular w-[80%]">
 												{navLink.description}
 											</p>
 										</a>
 										{/* Hoverable menu for nav links that have more options */}
 										{navLink.hoverOptions && (
-											<ul className="absolute top-16 -right-10 z-40 hidden h-fit w-fit border-t-[9px] border-navy-basic bg-white py-4 px-4 shadow-lg delay-75 group-hover:block">
+											<ul className="absolute top-16 -right-10 z-40 hidden h-fit w-fit border-t-[9px] border-navy-basic bg-white  text-black shadow-lg delay-75 group-hover:block">
 												{navLink.hoverOptions.map(
 													(option, i) => (
 														<Link
@@ -114,14 +114,7 @@ const Navbar = () => {
 															key={option.name}
 														>
 															<li
-																className={`w-full cursor-pointer  ${
-																	i !=
-																		navLink
-																			.hoverOptions
-																			.length -
-																			1 &&
-																	"mb-9"
-																}`}
+																className={`w-full cursor-pointer px-4 py-5 transition-all  hover:bg-navy-dark hover:text-white `}
 															>
 																{option.name}
 															</li>
