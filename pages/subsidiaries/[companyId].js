@@ -1,0 +1,65 @@
+import { PerksList } from "components/comapnyPage/PerksList";
+import { companiesData } from "data/companiesData";
+import Image from "next/image";
+import { useEffect } from "react";
+
+export const getServerSideProps = async (context) => {
+	{
+		const { query } = context;
+		return { props: { query } };
+	}
+};
+
+export default function CompanyPage({ query }) {
+	const companyData = companiesData[query.companyId];
+
+	const perks =
+		companyData.companyObjectives ||
+		companyData.values ||
+		companyData.services;
+
+	return (
+		<div className="container pt-8">
+			<div className="mb-[100px] flex flex-col-reverse items-center justify-center space-y-3 lg:flex-row lg:space-y-0 lg:space-x-10">
+				<div className="space-y-5 text-center md:mr-8 lg:w-1/2 lg:text-left">
+					<h2 className="body-medium-bold lg:header3 text-navy-basic">
+						{companyData.name}
+					</h2>
+					<p className="md:body-large-regular body-small-regular">
+						{companyData.description}
+					</p>
+				</div>
+				<div className="relative h-[250px] w-[80%]  md:h-[300px] md:w-1/2">
+					<Image
+						layout="fill"
+						src={companyData.logo}
+						alt={`${companyData.name} logo`}
+						fill
+					/>
+				</div>
+			</div>
+			<div className="flex flex-col-reverse gap-9 lg:flex-row">
+				<div className="w-full lg:w-1/2">
+					<div className="body-medium-bold lg:header3  text-center text-navy-basic lg:text-left">
+						{companyData.values && <h2>Core Values:</h2>}
+						{companyData.companyObjectives && (
+							<h2>Company Objectives:</h2>
+						)}
+						{companyData.services && <h2>Services:</h2>}
+					</div>
+					<div>
+						<PerksList list={perks} />
+					</div>
+				</div>
+				<div className="relative mx-auto h-[260px] w-[340px] lg:h-[488px]  lg:w-[588px]">
+					<Image
+						src={companyData.img}
+						alt={"companyData.alt"}
+						layout="fill"
+						fill
+					/>
+				</div>
+			</div>
+		</div>
+	);
+}

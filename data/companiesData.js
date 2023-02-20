@@ -5,26 +5,14 @@ export const companiesData = {
 		description:
 			"Connecting the dots through digital leading-edge innovation platforms based on seamless cognitive customer experience. Specialized in Advanced Technological Industries to blend our senior level engineering expertise with our innovative ideas and link our expert capabilities with business objectives resulting in the delivery of next generation products.",
 		values: [
-			`Trust: \n
-                Trust is the cornerstone of any successful relationship.
-                We therefore take all necessary steps to establish it.
-                We appreciate honesty and expect it from others. While transparency is important,
-                we recognize the need for discretion in certain situations
+			`Trust is the cornerstone of any successful relationship. We therefore take all necessary steps to establish it. We appreciate honesty and expect it from others. While transparency is important, we recognize the need for discretion in certain situations
             `,
-			`Commitment: \n
-                We honor our obligations and fulfil our word,
-                by bringing in the talent, skills, energy, and true effort,
-                We combine passion to our job with genuine enthusiasm for what we do.
-                We hold ourselves accountable for getting things done in order to meet or surpass expectations
+			`We honor our obligations and fulfil our word, by bringing in the talent, skills, energy, and true effort, We combine passion to our job with genuine enthusiasm for what we do. We hold ourselves accountable for getting things done in order to meet or surpass expectations
             `,
-			`Innovation: \n
-                We're always on the look for new technology trends. This assists us in establishing an
-                exciting environment for creativity. We apply appropriate knowledge and expertise to each
-                project. We like to think outside the box. We don't mind experimenting, trying new
-                techniques, and adapting them to particular requirements and objectives.
+			`We're always on the look for new technology trends. This assists us in establishing an exciting environment for creativity. We apply appropriate knowledge and expertise to each project. We like to think outside the box. We don't mind experimenting, trying new techniques, and adapting them to particular requirements and objectives.
             `,
 		],
-		img: "https://img.freepik.com/free-photo/business-partners-handshake-global-corporate-with-technology-concept_53876-102615.jpg?w=1060&t=st=1676721593~exp=1676722193~hmac=cec597b121565796faed559c51d5598d56b4d81fba9433e975975b69dcea9b86",
+		img: "/assets/pics/business-partners-handshake-global-corporate-with-technology-concept_53876-102615.webp",
 	},
 
 	"kemtix-innovation": {
@@ -81,7 +69,7 @@ export const companiesData = {
 			"Supporting innovative MEA startups secure seed funding",
 			"Enabling them to the globe through providing tailored in-kind supportive and functional services",
 		],
-		img: "https://img.freepik.com/free-photo/business-partners-handshake-international-business-concept_53876-104046.jpg?w=1060&t=st=1676750484~exp=1676751084~hmac=bba0d2808c14447dbd948933f7794bfc6c0dd174cf5837c2b589b3b450a36e7e",
+		img: "/assets/pics/business-partners-handshake-international-business-concept_53876-104046.webp",
 	},
 
 	"pts-projects": {
@@ -94,7 +82,7 @@ export const companiesData = {
 			"We serve as an operating and investment vehicle",
 			"We're capable of coordinating potential cross-border business acquisitions in technology, energy, and other sectors",
 			"The services cover startups, mid-scale, and enterprise-level businesses",
-			"We  follow a clear division of responsibilities",
+			"We follow a clear division of responsibilities",
 			"We take a proactive approach to day-to-day governance, administration, and financial reporting",
 		],
 		img: "/assets/pics/b-man-holding-tablet.png",
