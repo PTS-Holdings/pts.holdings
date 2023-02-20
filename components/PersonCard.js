@@ -1,21 +1,31 @@
 import Image from "next/image";
 import { ImLinkedin } from "react-icons/im";
 
-const PersonalCard = ({ img, name, title, linkedin }) => {
+const PersonalCard = ({ img, name, title, company, linkedin }) => {
 	return (
-		<div>
+		<div className="w-fit text-center">
 			<Image
 				src={img}
 				alt={`${name} img`}
-				className="h-60 w-60 rounded-lg"
+				width={208}
+				height={208}
+				className="mb-6 rounded-lg"
 			/>
-			<p className="mt-4 font-semibold ">{name}</p>
-			<p className="font-light">{title}</p>
+			<p className="body-small-bold md:body-medium-bold mb-2 text-navy-basic">
+				{name}
+			</p>
+			<p className="caption-regular mb-2">{title}</p>
+			<p className="caption-regular mb-2">{company}</p>
 
 			{linkedin && (
-				<div className="w-fit cursor-pointer">
+				<div className="mx-auto w-fit cursor-pointer">
 					<a href={linkedin} target="_blank" rel="noreferrer">
-						<ImLinkedin />
+						<Image
+							src={"/assets/icons/linkedin-icon.svg"}
+							alt={`${name} linkedin`}
+							width={20}
+							height={20}
+						/>
 					</a>
 				</div>
 			)}
