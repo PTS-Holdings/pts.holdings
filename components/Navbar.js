@@ -6,6 +6,10 @@ import { useState } from "react";
 const Navbar = () => {
 	const [open, setOpen] = useState(false);
 
+	// Disable scroll when navbar is open
+	if (open) document.body.style.overflow = "hidden";
+	else document.body.style.overflow = "auto";
+
 	let navLinks = [
 		{
 			name: "About",
@@ -41,12 +45,13 @@ const Navbar = () => {
 		},
 	];
 
-	console.log(navLinks);
 	return (
 		<header>
+			{/* for large screens Navbar */}
 			<nav
 				className={`$ h-24 w-full bg-white py-10 px-4 shadow-lg md:px-10 lg:h-fit lg:min-h-[180px] lg:py-10`}
 			>
+				{/* Logo image */}
 				<div className=" container hidden flex-wrap items-center justify-between lg:flex">
 					<Link href="/">
 						<div className="relative h-[35px] w-[57px] md:h-[88px] md:w-[140px]">
@@ -59,6 +64,7 @@ const Navbar = () => {
 						</div>
 					</Link>
 					<div>
+						{/* Upper navigation links that has no description */}
 						<ul className="mb-4 flex justify-end">
 							{navLinks.map((navLink) => {
 								if (navLink.description) return "";
@@ -71,17 +77,20 @@ const Navbar = () => {
 								);
 							})}
 						</ul>
+						{/* bottom Navigation links */}
 						<ul className="flex">
 							{navLinks.map((navLink, i) => {
 								if (!navLink.description) return "";
 								return (
 									<li
 										key={navLink.name}
-										className="group relative  flex h-16 items-center"
+										className="group relative flex h-16 items-center "
 									>
+										{/* Add a Divider to the except for the first link  */}
 										{i != 0 && (
 											<div className="mx-8 h-full w-[0.5px] bg-navy-dark"></div>
 										)}
+										{/* Main nav link & description */}
 										<a href={navLink.href}>
 											<p className="body-medium-bold text-gray-bold">
 												{navLink.name}
@@ -90,8 +99,9 @@ const Navbar = () => {
 												{navLink.description}
 											</p>
 										</a>
+										{/* Hoverable menu for nav links that have more options */}
 										{navLink.hoverOptions && (
-											<ul className="absolute top-20 -right-10 hidden h-fit w-fit border-t-[9px] border-navy-basic bg-white py-4 px-4 shadow-lg delay-75 group-hover:block">
+											<ul className="absolute top-16 -right-10 z-40 hidden h-fit w-fit border-t-[9px] border-navy-basic bg-white py-4 px-4 shadow-lg delay-75 group-hover:block">
 												{navLink.hoverOptions.map(
 													(option, i) => (
 														<Link
@@ -122,8 +132,10 @@ const Navbar = () => {
 					</div>
 				</div>
 
-				<div className="flex h-full  items-center justify-between lg:hidden">
-					{/* hamburger button */}
+				{/* navigation bar for medium and small screens */}
+				<div
+					className={`flex h-full  items-center justify-between lg:hidden `}
+				>
 					<Link href="/">
 						<div className="relative h-[50px] w-[81px] md:h-[88px] md:w-[140px]">
 							<Image
@@ -135,8 +147,9 @@ const Navbar = () => {
 						</div>
 					</Link>
 
+					{/* hamburger button icon */}
 					<div
-						className="relative z-50 flex h-7 w-7 flex-col items-center justify-between "
+						className={`$ relative z-50 flex h-7 w-7 flex-col items-center justify-between`}
 						onClick={() => {
 							setOpen(!open);
 						}}
@@ -159,11 +172,12 @@ const Navbar = () => {
 					</div>
 				</div>
 			</nav>
+			{/* Nav links page for medium and small screens*/}
 			<div
-				className={` h-[80vh] bg-white pt-16  lg:hidden  ${
+				className={`h-[80vh] bg-white pt-16 lg:hidden ${
 					open
-						? "fixed top-0 left-0 z-40 block h-screen w-full"
-						: "hidden"
+						? "fixed top-0 left-0 z-40 block h-screen w-full  transition-all duration-300 ease-in-out"
+						: "fixed -top-[200vh] "
 				}`}
 			>
 				<ul className="container ">
