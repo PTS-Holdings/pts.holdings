@@ -1,14 +1,19 @@
 import { companiesData } from "data/companiesData";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
 	const [open, setOpen] = useState(false);
 
-	// Disable scroll when navbar is open
-	if (open) document.body.style.overflow = "hidden";
-	else document.body.style.overflow = "auto";
+	useEffect(() => {
+		// Disable scroll when navbar is open
+		if (open) {
+			document.body.style.overflow = "hidden";
+		} else {
+			document.body.style.overflow = "auto";
+		}
+	}, []);
 
 	let navLinks = [
 		{
