@@ -24,23 +24,25 @@ const AboutUsSection = () => {
 							investing in the people
 						</p>
 					</div>
-					<div className="relative h-[175px] w-[311px] md:h-[229px] md:w-[414px]">
+					<div className="relative h-[175px] w-[311px] md:h-[229px] md:w-[343px]">
 						<Image
-							src="/assets/pics/typing-on-laptop.png"
+							src="/assets/pics/business-man-hand-on-upward-arrow.jpg"
 							layout="fill"
 							alt="typing on laptop"
 							fill
+							style={{ objectFit: "cover" }}
 						/>
 					</div>
 				</div>
 
 				<div className="flex flex-col items-center gap-5 lg:flex-row lg:items-start lg:justify-between">
-					<div className="relative h-[175px] w-[311px] md:h-[229px] md:w-[414px]">
+					<div className="relative h-[175px] w-[311px] md:h-[229px] md:w-[343px]">
 						<Image
-							src="/assets/pics/touch-analatics.png"
+							src="/assets/pics/businessmen-handshake.jpg"
 							layout="fill"
 							alt="touch analatics "
 							fill
+							style={{ objectFit: "cover" }}
 						/>
 					</div>
 					<div className="space-y-4 text-center lg:w-1/2 lg:text-left">
@@ -75,12 +77,13 @@ const AboutUsSection = () => {
 							seeding in the entrepreneurs over the globe.
 						</p>
 					</div>
-					<div className="relative h-[175px] w-[311px] md:h-[229px] md:w-[414px]">
+					<div className="relative h-[175px] w-[311px] md:h-[229px] md:w-[343px]">
 						<Image
-							src="/assets/pics/signing-on-tablet.png"
+							src="/assets/pics/reviewing-numbers-and-charts.jpg"
 							layout="fill"
 							alt="signing on tablet"
 							fill
+							style={{ objectFit: "contain" }}
 						/>
 					</div>
 				</div>
