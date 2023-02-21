@@ -5,7 +5,7 @@ const WhoWeAreSection = () => {
 		<section className="flex flex-col items-center gap-5 lg:flex-row lg:items-start lg:justify-between">
 			<div className="relative h-[180px] w-[246px] md:h-[240px] md:w-[414px]">
 				<Image
-					src="/assets/pics/business-meeting.jpg"
+					src="/assets/pics/business-meeting.webp"
 					layout="fill"
 					alt="business meeting"
 					fill
