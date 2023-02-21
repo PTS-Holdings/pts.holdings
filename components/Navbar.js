@@ -13,7 +13,7 @@ const Navbar = () => {
 		} else {
 			document.body.style.overflow = "auto";
 		}
-	}, []);
+	}, [open]);
 
 	let navLinks = [
 		{
