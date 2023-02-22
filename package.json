@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "restart-prod": "git pull && yarn && yarn build && pm2 restart oro-capital.com"
+    "update-prod": "git pull && yarn && yarn build && pm2 restart pts.holdings"
   },
   "dependencies": {
     "next": "13.0.0",

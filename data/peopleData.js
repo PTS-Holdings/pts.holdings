@@ -58,7 +58,7 @@ export const peopleData = [
 	},
 	{
 		img: "/assets/reem.jpg",
-		name: "Reem Khatab",
+		name: "Reem Khattab",
 		title: "Limited Partner",
 		company: "ORO Ventures Lab",
 		linkedin: "https://www.linkedin.com/in/reem-khattab-090a08232/",
