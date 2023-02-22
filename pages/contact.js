@@ -1,6 +1,12 @@
+import { NextSeo } from "next-seo";
+
 export default function Contact() {
 	return (
 		<section className="container py-7">
+			<NextSeo
+				title="PTS Holdings | Contact"
+				description="Looking to get in touch with us? Contact our team at PTS through our  email. We look forward to hearing from you and answering any questions you may have."
+			/>
 			<div className="text-center">
 				<h1 className="md:header3 body-medium-bold  text-center text-navy-basic">
 					Get In Touch With Us

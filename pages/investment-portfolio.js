@@ -1,8 +1,13 @@
+import { NextSeo } from "next-seo";
 import Image from "next/image";
 
 export default function InvestmentPortfolio() {
 	return (
 		<section className="container flex flex-col-reverse items-center gap-5 py-8 lg:flex-row lg:items-start lg:justify-between">
+			<NextSeo
+				title="PTS Holdings | Investment Portfolio"
+				description="Discover our diverse investment portfolio and explore the innovative companies we have partnered with. Learn how we drive growth and create value for our clients."
+			/>
 			<div className="space-y-4 text-center lg:w-1/2 lg:text-left">
 				<h2 className="body-medium-bold md:header3 text-navy-basic">
 					Investment Portfolio{" "}

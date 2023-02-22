@@ -1,4 +1,5 @@
 import CompanyInfo from "components/companyPage/CompanyInfo";
+import { NextSeo } from "next-seo";
 
 export default function SocialResponsibilityPage() {
 	const companyData = {
@@ -19,6 +20,10 @@ export default function SocialResponsibilityPage() {
 	const perks = companyData.socialResponsibility;
 	return (
 		<div className="container py-8">
+			<NextSeo
+				title="PTS Holdings | Social Responsibility"
+				description="Discover how our social responsibility efforts are making a positive impact in our communities. Learn about our initiatives and partnerships. Join us in creating a better world"
+			/>
 			<CompanyInfo companyData={companyData} perks={perks} />
 		</div>
 	);
