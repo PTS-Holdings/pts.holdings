@@ -1,7 +1,7 @@
 {
     "apps": [{
         "name" : "pts.holdings",
-        "script" : "git pull && yarn && yarn build && yarn start",
+        "script" : "yarn && yarn build && yarn start",
         "watch" : false,
         "env":{
             "PORT" : 3002
