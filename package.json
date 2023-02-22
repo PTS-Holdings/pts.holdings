@@ -6,12 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "postbuild": "next-sitemap",
     "lint": "next lint",
-    "update-prod": "git pull && yarn && yarn build && pm2 restart pts.holdings"
+    "update-production": "git pull && yarn && yarn build && yarn postbuild && pm2 restart pts.holdings"
   },
   "dependencies": {
     "next": "13.0.0",
     "next-seo": "^5.15.0",
+    "next-sitemap": "^3.1.52",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.6.0"
