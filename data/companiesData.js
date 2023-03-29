@@ -31,7 +31,7 @@ export const companiesData = {
 	},
 
 	"oro-partners": {
-		name: "Oro Partners LLC Group",
+		name: "Oro Partners LLC",
 		logo: "/assets/logos/oro-partners.svg",
 		description:
 			"ORO Partners is an angel investment network connect and support business angels, early stage investors, entrepreneurs and corporates seeking investing opportunities mainly in tech-disruptive innovations throughout Middle-East and Africa, the group is managed by ORO Partners, subsidiary of PTS Investments Holdings in cooperation with COREangels",
@@ -44,7 +44,7 @@ export const companiesData = {
 	},
 
 	"oro-ventures-lab": {
-		name: "ORO Ventures Lab LLC Group",
+		name: "ORO Ventures Lab LLC",
 		logo: "/assets/logos/oro-vl.svg",
 		description:
 			"ORO Ventures Lab is a  company-based Venture Studio, derived from the US-based holding company PTS Holding Investment. The lab adopts a one-stop shop approach for MEA startups combining company building with venture funding either by generating new ideas for startups or by recruiting founders with ideas, and then the process of growing the startup  and enabling startups to capitalize on MEA-tech",

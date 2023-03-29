@@ -2,7 +2,7 @@ export const peopleData = [
 	{
 		img: "/assets/abd-elaziz-mandour.png",
 		name: "Eng. Abdul-aziz Mandour",
-		title: "Chairman",
+		title: "Founder",
 		company: "PTS Investments Holdings",
 		linkedin: null,
 	},
@@ -34,14 +34,6 @@ export const peopleData = [
 		company: "Kemtix Technologies",
 		linkedin: "https://www.linkedin.com/in/walidazab/",
 	},
-
-	{
-		img: "/assets/ahmedNafie.jpg",
-		name: "Eng. Ahmed Nafie",
-		title: `Limited Partner`,
-		company: "ORO Ventures Lab",
-		linkedin: "https://www.linkedin.com/in/ahmed-nafie-5873827/",
-	},
 	{
 		img: "/assets/marwa.png",
 		name: "Marwa Gawdat",
@@ -62,13 +54,6 @@ export const peopleData = [
 		title: "Limited Partner",
 		company: "ORO Ventures Lab",
 		linkedin: "https://www.linkedin.com/in/reem-khattab-090a08232/",
-	},
-	{
-		img: "/assets/omneya.jpg",
-		name: "Omneya Al Ghuzzy",
-		title: `Limited Partner`,
-		company: "ORO Ventures Lab",
-		linkedin: "https://www.linkedin.com/in/omneya-al-ghuzzy-86497a231/",
 	},
 	{
 		img: "/assets/farida.jpg",
