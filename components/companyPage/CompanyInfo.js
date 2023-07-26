@@ -39,10 +39,10 @@ const CompanyInfo = ({ companyData, perks }) => {
 						<PerksList list={perks} />
 					</div>
 				</div>
-				<div className="relative mx-auto h-[260px] w-[340px] lg:h-[488px]  lg:w-[588px]">
+				<div className="relative mx-auto h-[260px] w-[340px] overflow-hidden  rounded-xl lg:h-[488px] lg:w-[588px]">
 					<Image
 						src={companyData.img}
-						alt={"companyData.alt"}
+						alt={""}
 						layout="fixed"
 						fill
 						style={{ objectFit: "contain" }}
