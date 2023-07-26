@@ -9,7 +9,7 @@ const CompanyInfo = ({ companyData, perks }) => {
 					<h1 className="body-medium-bold lg:header3 text-navy-basic">
 						{companyData.name}
 					</h1>
-					<p className="md:body-large-regular body-small-regular">
+					<p className="md:body-large-regular body-small-regular  whitespace-pre-wrap">
 						{companyData.description}
 					</p>
 				</div>
