@@ -6,6 +6,15 @@ const nextConfig = {
 		domains: [],
 		formats: ["image/webp"],
 	},
+	async redirects() {
+		return [
+			{
+				source: "/team",
+				destination: "/",
+				permanent: true,
+			},
+		];
+	},
 };
 
 module.exports = nextConfig;
