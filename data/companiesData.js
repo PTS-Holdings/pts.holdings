@@ -105,6 +105,6 @@ export const companiesData = {
 				• Morocco
 				• Egypt`,
 		],
-		img: "/assets/pics/kelly-sikkema.jpg",
+		img: "/assets/pics/erik-odiin-nfQk1YdGoNc-unsplash.jpg",
 	},
 };
