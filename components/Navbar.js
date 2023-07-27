@@ -22,12 +22,12 @@ const Navbar = () => {
 			href: "/about",
 		},
 		{
-			name: "Subsidiaries",
-			description: "Our Subsidiaries companies",
-			href: "/subsidiaries",
+			name: "Group Structure",
+			description: "Our Subsidiaries & Portflio companies",
+			href: "/group-structure",
 			hoverOptions: Object.keys(companiesData).map((company) => ({
 				name: companiesData[company].name,
-				href: `/subsidiaries/${company}`,
+				href: `/group-structure/${company}`,
 			})),
 		},
 		{
@@ -93,7 +93,7 @@ const Navbar = () => {
 									>
 										{/* Add a Divider to the except for the first link  */}
 										{i != 0 && (
-											<div className="mx-8 h-full w-[0.5px] bg-navy-dark "></div>
+											<div className="ml-3 mr-5  h-full w-[0.5px] bg-navy-dark "></div>
 										)}
 										{/* Main nav link & description */}
 										<a href={navLink.href}>
