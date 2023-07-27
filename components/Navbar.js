@@ -30,11 +30,11 @@ const Navbar = () => {
 				href: `/subsidiaries/${company}`,
 			})),
 		},
-		// {
-		// 	name: "Management Team",
-		// 	description: "Top leading team in the area",
-		// 	href: "/team",
-		// },
+		{
+			name: "Management Team",
+			description: "Top leading team in the area",
+			href: "/team",
+		},
 		{
 			name: "Social Responsibilities",
 			description: "Our aim towards our society",
