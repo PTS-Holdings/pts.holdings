@@ -16,7 +16,7 @@ const SubsidiariesSection = () => {
 							companyName={companyData.name}
 							logo={companyData.logo}
 							description={companyData.description}
-							href={`/subsidiaries/${companyId}`}
+							href={`/group-structure/${companyId}`}
 						/>
 					);
 				})}
