@@ -45,8 +45,8 @@ export const companiesData = {
 	},
 
 	"core-angels-mea": {
-		name: "Core Angels MEA",
-		logo: "/assets/logos/coreAngels-black.svg",
+		name: "COREangels MEA",
+		logo: "/assets/logos/COREangels_MEA_Original.svg",
 		description: `COREangels MEA  is an Angel Portfolio Fund jointly partnered with COREangels international, PTS investments holdings and Kemtix Technologies.\n It’s a diverse expertise group that share global ambition to help innovative startups ideas through fast track of support whether in investment or in kind-services.
 					\n COREangels MEA Fund connects and supports business angels, early stage investors, entrepreneurs, venture studios and corporates seeking investing opportunities mainly in tech-disruptive innovations with a goal to build an ecosystem that support a portfolio of Venture Studio-backed-startups to create  resilient Entrepreneurs and sustainable seed funding for development, growth, commercialization and scalability through Pre-Seed Stage and Seed stage throughout Middle-East and Africa. `,
 		companyObjectives: [
