@@ -23,11 +23,11 @@ const HeroSection = () => {
 						className=" h-8 w-8 rounded-full"
 					/>
 					<div>
-						<h3 className="body-medium-bold">
+						<h3 className="body-medium-bold whitespace-nowrap">
 							Eng. Abdulaziz Mandour
 						</h3>
-						<p className=" body-small-regular">
-							Chairman of PTS Holdings
+						<p className=" body-small-regular whitespace-nowrap">
+							Founder of PTS Holdings
 						</p>
 					</div>
 				</div>
